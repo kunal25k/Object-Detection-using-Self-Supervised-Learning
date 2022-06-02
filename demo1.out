@@ -1,0 +1,7 @@
+loading self-supervised weights from  /scratch/ar6381/DL/weights/SelfSupervisedModel_BYOL.h5
+Traceback (most recent call last):
+  File "./demo.py", line 86, in <module>
+    main()
+  File "./demo.py", line 66, in main
+    model=torch.nn.parallel.DistributedDataParallel(model, device_ids=[gpu])
+NameError: name 'gpu' is not defined
